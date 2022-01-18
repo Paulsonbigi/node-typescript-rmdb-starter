@@ -20,7 +20,7 @@ export class User extends BaseEntity {
     lastName?: string;
 
     @Column()
-    phoneNumber!: number;
+    phoneNumber!: string;
 
     @Column()
     email!: string;
