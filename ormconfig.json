@@ -1,0 +1,18 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "PeacePaul@123",
+    "database": "node_app",
+    "entities": [
+        "src/entity/*.ts"
+    ],
+    "migrations":["src/migration/**/*.ts"],
+    "cli": {
+        "entitiesDir": "src/entity",
+        "migrationsDir": "src/migration"
+     },
+    "synchronize": true,
+    "logging": false
+}
