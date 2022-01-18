@@ -1,9 +1,9 @@
 {
-    "type": "postgres",
+    "type": "mysql",
     "host": "localhost",
-    "port": 5432,
-    "username": "dayo",
-    "password": "postgres",
+    "port": 3306,
+    "username": "root",
+    "password": "PeacePaul@123",
     "database": "node_app",
     "entities": [
         "src/entity/*.ts"
