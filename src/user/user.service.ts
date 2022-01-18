@@ -30,8 +30,8 @@ class UserService {
         user.phoneNumber= req.body.phoneNumber;
         user.password= password;
         
-        const savedUser = await user.save()
-        console.log(savedUser)
+        const savedUser = await user.save()  // not creating
+        console.log("hyhyh", savedUser)
         return { savedUser };
     }
 }

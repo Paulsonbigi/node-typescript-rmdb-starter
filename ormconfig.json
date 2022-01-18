@@ -13,6 +13,6 @@
         "entitiesDir": "src/entity",
         "migrationsDir": "src/migration"
      },
-    "synchronize": true,
+    "synchronize": false,
     "logging": false
 }
