@@ -9,26 +9,26 @@ import {
 export class User extends BaseEntity {
 
     @PrimaryGeneratedColumn()
-    id!: number;
+    id: number;
 
     @Column()
-    firstName?: string;
+    firstName: string;
 
     @Column()
-    lastName?: string;
+    lastName: string;
 
     @Column()
-    phoneNumber!: string;
+    phoneNumber: string;
 
     @Column()
-    email!: string;
+    email: string;
 
     @Column()
-    password!: string;
+    password: string;
 
     @Column()
-    role!: string;
+    role: string;
 
     @Column()
-    username!: string;
+    username: string;
 }

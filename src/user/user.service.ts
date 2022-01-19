@@ -1,5 +1,4 @@
 import { Request } from "express";
-import { getManager } from "typeorm";
 import * as bcrypt from "bcryptjs"
 import Jwt from "jsonwebtoken";
 import { User } from "../entity/user.entity";
@@ -32,7 +31,6 @@ class UserService {
         user.role = req.body.role
         
         const savedUser = await user.save()  // not creating
-        console.log("hyhyh", savedUser)
         return { savedUser };
     }
 }
