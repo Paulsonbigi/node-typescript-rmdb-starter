@@ -1,10 +1,10 @@
 {
-    "type": "mysql",
+    "type": "postgres",
     "host": "localhost",
-    "port": 3306,
-    "username": "root",
+    "port": 5432,
+    "username": "postgres",
     "password": "PeacePaul@123",
-    "database": "node_app",
+    "database": "node_test",
     "entities": [
         "src/entity/*.ts"
     ],
