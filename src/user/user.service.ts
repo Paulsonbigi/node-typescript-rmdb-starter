@@ -29,6 +29,7 @@ class UserService {
         user.email= req.body.username;
         user.phoneNumber= req.body.phoneNumber;
         user.password= password;
+        user.role = req.body.role
         
         const savedUser = await user.save()  // not creating
         console.log("hyhyh", savedUser)

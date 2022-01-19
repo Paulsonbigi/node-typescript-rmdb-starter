@@ -8,8 +8,9 @@ class UserController {
             return res.status(200).json({
                 data: registeredUser
             })
-        } catch (err){
-
+        } catch (err:any){
+            console.error(err)
+            return res.status(500).json({message:err.message})
         }
     }
 }
